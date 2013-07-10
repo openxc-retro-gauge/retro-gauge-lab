@@ -6,15 +6,14 @@ layout: default
 
 <div class="row">
   <div class="span3">
-    <div class="well">
+    <div class="well affix">
       <ul class="nav nav-list">
-        <li><a href="/assembly/obd2.html">OBD-II Cable</a></li>
-        <li><a href="/assembly/crimphousings.html">Crimp Housings</a></li>
-        <li><a href="/assembly/jumper.html">Power Jumper</a></li>
-        <li><a href="/assembly/wiring.html">Wiring</a></li>
-        <li><a href="/assembly/vehicle-power.html">Vehicle Power</a></li>
-        <li><a href="/assembly/enclosure.html">Enclosure (optional)</a></li>
-        <li><a href="/assembly/final-assembly.html">Final Assembly</a></li>
+        <li><a href="#step1">1 - The Circuit Board</a></li>
+        <li><a href="#step2">2 - Soldering the PCB</a></li>
+        <li><a href="#step3">3 - Programming</a></li>
+        <li><a href="#step4">4 - Gauge Housing</a></li>
+        <li><a href="#step5">5 - Gauge Face</a></li>
+        <li><a href="#step6">6 - Final Assembly</a></li>
       </ul>
     </div>
   </div>
@@ -22,11 +21,8 @@ layout: default
 <div class="span9">
 
 <div class="page-header">
-    <h1>Vehicle Interface Assembly</h1>
+    <h1>{{page.title}}</h1>
 </div>
-
-Make sure you've purchased all of the required <a
-href="/hardware.html">parts</a> before beginning.
 
 {{ content }}
 

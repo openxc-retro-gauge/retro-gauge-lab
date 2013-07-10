@@ -1,9 +1,7 @@
 ---
-layout: default
-title: Retro Gauge
+layout: design
+title: Retro Gauge Design Goals
 ---
-
-# OpenXC Retro Gauge
 
 ![Retro Gauge](/images/retro-gauge.jpg)
 

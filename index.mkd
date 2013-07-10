@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: withtitle
 title: OpenXC Retro Gauge Lab
 ---
+
+![Components](/images/retro-gauge.jpg)
 
 In this lab, we will briefly discuss what open source hardware is and how it
 can be applied to OpenXC and vehicle modifications. It would be impossible to
@@ -15,7 +17,7 @@ In this lab we will cover the following main topics:
 * Open Source Hardware Design
 * OpenXC Retro Gauge - General Information
 * Retro Gauge Components
-    * Arduino - an electronic prototyping platform
+    * Arduino, an electronic prototyping platform
     * Two digit 7-segment display
     * Stepper motors
     * Using Hue values with RGB LEDs

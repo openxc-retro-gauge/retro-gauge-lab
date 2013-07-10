@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: assembly
 title: Assembly
 ---
 
@@ -23,7 +23,7 @@ Resources:
     * Shapeways - http://www.shapeways.com/
     * Instructable tutorial - visit the OpenXC website for the link
 
-**Step 1: The Circuit Board**
+<h2 id="step1">1: The Circuit Board</h2>
 
 For the purposes of this lab, OpenXC has provided the circuit board and
 components to make your own Retro Gauge. If you wish to modify your gauge or a
@@ -32,25 +32,25 @@ schematics and use your favorite low-volume fab house to manufacture the gauge.
 All of the materials necessary to build a Retro Gauge can also be found on the
 GitHub site in the Gauge-BOM.xsl document.
 
-**Step 2: Soldering Your PCB**
+<h2 id="step2">2: Soldering Your PCB</h2>
 
 Once you have your PCB and all of your materials, go to the Instructable link on
 the GitHub page for instructions on how to solder your Retro Gauge PCB.
 
-**Step 3: Flashing code on your PCB**
+<h2 id="step3">3: Flashing code on your PCB</h2>
 
 Now that your circuit board is assembled, it is time to flash the firmware onto
 the Arduino. To do this, please use the following tutorial:
 http://www.arduino.cc/en/Guide/ArduinoProMini
 
-**Step 4: Printing the Gauge Housing**
+<h2 id="step4">4: Printing the Gauge Housing</h2>
 
 Making your housing is as simple as downloading the .stl files from GitHub and
 printing at your local TechShop or hackerspace. If you do not have access to
 either one of these facilities, you can print the housing using a 3D fabrication
 house listed above.
 
-**Step 5: Build a Gauge Face**
+<h2 id="step5">5: Build a Gauge Face</h2>
 
 *Equipment and Material Needed*
 
@@ -105,7 +105,7 @@ the gauge face.
 Using the multipurpose adhesive, attach the gauge face design the to acrylic and
 voilà, you have your very own Retro Gauge face!
 
-**Step 6: Assembly**
+<h2 id="step6">6: Assembly</h2>
 
 Finally, time to put all of the pieces together!
 

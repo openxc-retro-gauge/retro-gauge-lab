@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: design
 title: Retro Gauge Components
 ---
-
-# Retro Gauge Components
 
 ![Retro Gauge Component Diagram](/images/retro-gauge-teardown.jpg)
 

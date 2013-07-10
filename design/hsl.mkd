@@ -1,9 +1,7 @@
 ---
-layout: default
-title: HSL and HSV
+layout: design
+title: HSL and HSV for Color
 ---
-
-# Using Hue Values to Set Color on an RGB LED
 
 ![HSL and HSV](/images/hsl-hsv.png)
 

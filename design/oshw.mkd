@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: design
 title: Open Source Hardware
 ---
-
-# Open Source Hardware Design
 
 **Definition**
 
