@@ -1,0 +1,122 @@
+---
+layout: default
+title: Assembly
+---
+
+Now let’s walk through how to build up a Retro Gauge from scratch. For
+additional information, please visit openxcplatform.com or check out the links
+below.
+
+Resources:
+
+* OpenXC Retro Gauge Repository: https://github.com/openxc/retro-gauge
+* PCB Fabrications Shops
+    * Seeed Studios - http://www.seeedstudio.com/depot/
+    * Batch PCB - https://www.batchpcb.com/
+    * Sunstone PCB - http://www.sunstone.com/
+* Electronic Components
+    * Sparkfun - http://www.sparkfun.com/
+    * Digikey - http://www.digikey.com/
+    * Adafruit - http://adafruit.com/
+* 3D Printing Fabrication Shops
+    * Fathom Studios - http://studiofathom.com/
+    * Shapeways - http://www.shapeways.com/
+    * Instructable tutorial - visit the OpenXC website for the link
+
+**Step 1: The Circuit Board**
+
+For the purposes of this lab, OpenXC has provided the circuit board and
+components to make your own Retro Gauge. If you wish to modify your gauge or a
+friend wants to build their own, visit the GitHub page to download the PCB
+schematics and use your favorite low-volume fab house to manufacture the gauge.
+All of the materials necessary to build a Retro Gauge can also be found on the
+GitHub site in the Gauge-BOM.xsl document.
+
+**Step 2: Soldering Your PCB**
+
+Once you have your PCB and all of your materials, go to the Instructable link on
+the GitHub page for instructions on how to solder your Retro Gauge PCB.
+
+**Step 3: Flashing code on your PCB**
+
+Now that your circuit board is assembled, it is time to flash the firmware onto
+the Arduino. To do this, please use the following tutorial:
+http://www.arduino.cc/en/Guide/ArduinoProMini
+
+**Step 4: Printing the Gauge Housing**
+
+Making your housing is as simple as downloading the .stl files from GitHub and
+printing at your local TechShop or hackerspace. If you do not have access to
+either one of these facilities, you can print the housing using a 3D fabrication
+house listed above.
+
+**Step 5: Build a Gauge Face**
+
+*Equipment and Material Needed*
+
+* Lasercam
+* Color Printer
+* 3/32” Acrylic Sheet
+* Multipurpose Adhesive (3M Super #77 works well)
+* Clear Transparent sheets
+* Weighted Paper (20lbs works well)
+
+When we designed the gauge, we wanted to use tools that were commonly available
+in hobbyist spaces but also available to a tinkerer in his or her garage.
+
+With this in mind, it is important to note that a gauge face can be made
+multiple ways. However, with the tools available at TechShop, we believe this is
+the easiest way to make one. The Lasercam makes cutting a breeze; however, it is
+not necessary, and the pattern could simply be cut by hand using a hobby knife.
+
+*Procedure*
+
+![Gauge face design](/static/images/face-design.png)
+
+Using a photo editor like Photoshop or CorelDraw, design your gauge face. Make
+sure to download the GaugeFace.dxf from GitHub for the parameters of your
+design.
+
+![Applying a custom face](/static/images/applying-gauge-face.JPG)
+
+Print out the design on the weighted paper and also print a back square on the
+transparent. This will block the light from shining through the face in places
+that you do not want. Using the multipurpose adhesive, spray the back of the
+weighted paper and stick the black square over the gauge face. Do not worry
+about alignment, the lasercam will cut out the gauge face.
+
+![Pre-cutting acrylic](/static/images/lasercam1.jpg)
+
+Align the paper on the lasercam and using the gaugeFace.dxf, cut out the gauge
+face. You can add elements to the .dxf file if you wish to cut out numbers or
+‘tick’ marks to allow light to shine through.
+
+Tip: Create a rectangle on your design to use as a reference for setting up the
+paper on the lasercam. Using the laser pointer on the lasercam, you can
+reference your physical printed design with .dxf file for increased accuracy.
+
+![Cutting acrylic](/static/images/lasercam.jpg)
+
+Using the same gaugeFace.dxf file, cut out the acrylic to create the backing for
+the gauge face.
+
+![Custom gauge face printout](/static/images/custom-face.JPG)
+
+Using the multipurpose adhesive, attach the gauge face design the to acrylic and
+voilà, you have your very own Retro Gauge face!
+
+**Step 6: Assembly**
+
+Finally, time to put all of the pieces together!
+
+![Major components for final assembly](/static/images/major-components.JPG)
+
+Place the PCB in the housing and screw it together.
+
+![Custom face installed](/static/images/installed-face.JPG)
+
+Then place the gauge face on top of the PCB
+
+![Complete retro gauge](/static/images/completed-gauge.JPG)
+
+Your very first OpenXC Retro Gauge!

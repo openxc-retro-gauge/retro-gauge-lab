@@ -1,0 +1,47 @@
+---
+layout: default
+title: Retro Gauge
+---
+
+# OpenXC Retro Gauge
+
+![Retro Gauge](/images/retro-gauge.jpg)
+
+The Retro Gauge was created as an alternative to traditional aftermarket gauges.
+When the OpenXC team looked at what hobbyists and car enthusiasts were doing
+with their cars, we realized that aftermarket gauges were quite popular.
+However, these gauges were expensive and required the installation of additional
+sensors, which was both time consuming and sometimes very technical. Thus, we
+decided to design a mechanical vehicle gauge that had the same aesthetic appeal
+and form factor as existing gauges so that it would fit in existing gauge
+mounts.
+
+With the OpenXC Retro Gauge, you can display a variety of signals that are
+available to you using the OpenXC Android Library. Whether you want to display
+vehicle speed, engine torque, steering wheel angle, or your MPG, it is all
+available to you through a click of a button on your Android device.
+
+Another goal of the project was to make the gauge as accessible to hobbyists as
+possible. For this reason, we decided to use an Arduino Mini Pro and commonly
+available components for the circuit board. The housing was also designed to be
+printed on hobbyist printers such as the Makerbot Replicator 2.
+
+The core design of the Retro Gauge is based on open source hardware. Without it,
+this project could not be created in a 6 week design cycle and would not be
+accessible to different levels of automotive enthusiasts.
+
+Check out the Retro Gauge [project
+page](http://openxcplatform.com/projects/retro-gauge.html) for more details.
+
+**Design Goals**
+
+The Retro Gauge was designed from the ground up to be an open source hardware
+product.
+
+* Its mechanical housing was designed with specific wall thicknesses and curves
+  to be built on a 3D printer.
+* The PCB is designed around an open source electronic platform called Arduino
+* The electrical components are based off open source libraries and open source
+  hardware tutorials
+* The tools necessary to build a Retro Gauge are available to most hobbyists and
+  can be built at any TechShop
