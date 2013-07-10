@@ -5,7 +5,7 @@ title: HSL and HSV
 
 # Using Hue Values to Set Color on an RGB LED
 
-![HSL and HSV](/static/images/hsl-hsv.png)
+![HSL and HSV](/images/hsl-hsv.png)
 
 *This image is licensed under the Creative Commons Attribution-Share Alike 3.0
 Unported license from [Wikipedia](http://en.wikipedia.org/wiki/HSL_and_HSV)*

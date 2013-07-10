@@ -71,13 +71,13 @@ not necessary, and the pattern could simply be cut by hand using a hobby knife.
 
 *Procedure*
 
-![Gauge face design](/static/images/face-design.png)
+![Gauge face design](/images/face-design.png)
 
 Using a photo editor like Photoshop or CorelDraw, design your gauge face. Make
 sure to download the GaugeFace.dxf from GitHub for the parameters of your
 design.
 
-![Applying a custom face](/static/images/applying-gauge-face.JPG)
+![Applying a custom face](/images/applying-gauge-face.JPG)
 
 Print out the design on the weighted paper and also print a back square on the
 transparent. This will block the light from shining through the face in places
@@ -85,7 +85,7 @@ that you do not want. Using the multipurpose adhesive, spray the back of the
 weighted paper and stick the black square over the gauge face. Do not worry
 about alignment, the lasercam will cut out the gauge face.
 
-![Pre-cutting acrylic](/static/images/lasercam1.jpg)
+![Pre-cutting acrylic](/images/lasercam1.jpg)
 
 Align the paper on the lasercam and using the gaugeFace.dxf, cut out the gauge
 face. You can add elements to the .dxf file if you wish to cut out numbers or
@@ -95,12 +95,12 @@ Tip: Create a rectangle on your design to use as a reference for setting up the
 paper on the lasercam. Using the laser pointer on the lasercam, you can
 reference your physical printed design with .dxf file for increased accuracy.
 
-![Cutting acrylic](/static/images/lasercam.jpg)
+![Cutting acrylic](/images/lasercam.jpg)
 
 Using the same gaugeFace.dxf file, cut out the acrylic to create the backing for
 the gauge face.
 
-![Custom gauge face printout](/static/images/custom-face.JPG)
+![Custom gauge face printout](/images/custom-face.JPG)
 
 Using the multipurpose adhesive, attach the gauge face design the to acrylic and
 voilà, you have your very own Retro Gauge face!
@@ -109,14 +109,14 @@ voilà, you have your very own Retro Gauge face!
 
 Finally, time to put all of the pieces together!
 
-![Major components for final assembly](/static/images/major-components.JPG)
+![Major components for final assembly](/images/major-components.JPG)
 
 Place the PCB in the housing and screw it together.
 
-![Custom face installed](/static/images/installed-face.JPG)
+![Custom face installed](/images/installed-face.JPG)
 
 Then place the gauge face on top of the PCB
 
-![Complete retro gauge](/static/images/completed-gauge.JPG)
+![Complete retro gauge](/images/completed-gauge.JPG)
 
 Your very first OpenXC Retro Gauge!
