@@ -3,54 +3,42 @@ layout: assembly
 title: Assembly
 ---
 
-Now let’s walk through how to build up a Retro Gauge from scratch. For
-additional information, please visit openxcplatform.com or check out the links
-below.
-
-Resources:
-
-* OpenXC Retro Gauge Repository: https://github.com/openxc/retro-gauge
-* PCB Fabrications Shops
-    * Seeed Studios - http://www.seeedstudio.com/depot/
-    * Batch PCB - https://www.batchpcb.com/
-    * Sunstone PCB - http://www.sunstone.com/
-* Electronic Components
-    * Sparkfun - http://www.sparkfun.com/
-    * Digikey - http://www.digikey.com/
-    * Adafruit - http://adafruit.com/
-* 3D Printing Fabrication Shops
-    * Fathom Studios - http://studiofathom.com/
-    * Shapeways - http://www.shapeways.com/
-    * Instructable tutorial - visit the OpenXC website for the link
-
-<h2 id="step1">1: The Circuit Board</h2>
+<h2 id="step1">1 - The Circuit Board</h2>
 
 For the purposes of this lab, OpenXC has provided the circuit board and
 components to make your own Retro Gauge. If you wish to modify your gauge or a
-friend wants to build their own, visit the GitHub page to download the PCB
-schematics and use your favorite low-volume fab house to manufacture the gauge.
-All of the materials necessary to build a Retro Gauge can also be found on the
-GitHub site in the Gauge-BOM.xsl document.
+friend wants to build their own, visit the [GitHub
+repository](https://github.com/openxc/retro-gauge/tree/master/schematics) to download the PCB
+schematics and use your favorite low-volume fab house to manufacture the gauge
+(see the resources at the bottom of the page for some suggestions).
 
-<h2 id="step2">2: Soldering Your PCB</h2>
+The complete list of components required to build a Retro Gauge can also be
+found on [GitHub](https://github.com/openxc/retro-gauge/tree/master/schematics)
+in the
+[BOM](https://github.com/openxc/retro-gauge/raw/master/schematics/Gauge-BOM.xls).
 
-Once you have your PCB and all of your materials, go to the Instructable link on
-the GitHub page for instructions on how to solder your Retro Gauge PCB.
+<h2 id="step2">2 - Soldering Your PCB</h2>
 
-<h2 id="step3">3: Flashing code on your PCB</h2>
+Once you have your PCB and all of your materials, follow this [Instructable on
+soldering all of the components the PCB][instructable].
+
+[instructable]: http://www.instructables.com/id/How-to-Solder-Your-OpenXC-Retro-Gauge/
+
+<h2 id="step3">3 - Flashing code on your PCB</h2>
 
 Now that your circuit board is assembled, it is time to flash the firmware onto
-the Arduino. To do this, please use the following tutorial:
-http://www.arduino.cc/en/Guide/ArduinoProMini
+the Arduino. This requires an FTDI cable - follow [this tutorial on
+flashing](http://www.arduino.cc/en/Guide/ArduinoProMini) to get started.
 
-<h2 id="step4">4: Printing the Gauge Housing</h2>
+<h2 id="step4">4 - Printing the Gauge Housing</h2>
 
-Making your housing is as simple as downloading the .stl files from GitHub and
+Making your housing is as simple as [downloading the .stl files from
+GitHub](https://github.com/openxc/retro-gauge/tree/master/enclosure) and
 printing at your local TechShop or hackerspace. If you do not have access to
 either one of these facilities, you can print the housing using a 3D fabrication
 house listed above.
 
-<h2 id="step5">5: Build a Gauge Face</h2>
+<h2 id="step5">5 - Build a Gauge Face</h2>
 
 *Equipment and Material Needed*
 
@@ -69,13 +57,12 @@ multiple ways. However, with the tools available at TechShop, we believe this is
 the easiest way to make one. The Lasercam makes cutting a breeze; however, it is
 not necessary, and the pattern could simply be cut by hand using a hobby knife.
 
-*Procedure*
-
 ![Gauge face design](/images/face-design.png)
 
 Using a photo editor like Photoshop or CorelDraw, design your gauge face. Make
-sure to download the GaugeFace.dxf from GitHub for the parameters of your
-design.
+sure to download the [GaugeFace.dxf from
+GitHub](https://github.com/openxc/retro-gauge/tree/master/enclosure) for the
+parameters of your design.
 
 ![Applying a custom face](/images/applying-gauge-face.JPG)
 
@@ -87,9 +74,10 @@ about alignment, the lasercam will cut out the gauge face.
 
 ![Pre-cutting acrylic](/images/lasercam1.jpg)
 
-Align the paper on the lasercam and using the gaugeFace.dxf, cut out the gauge
-face. You can add elements to the .dxf file if you wish to cut out numbers or
-‘tick’ marks to allow light to shine through.
+Align the paper on the lasercam and using
+[gaugeFace.dxf](https://github.com/openxc/retro-gauge/tree/master/enclosure),
+cut out the gauge face. You can add elements to the .dxf file if you wish to cut
+out numbers or 'tick' marks to allow light to shine through.
 
 Tip: Create a rectangle on your design to use as a reference for setting up the
 paper on the lasercam. Using the laser pointer on the lasercam, you can
@@ -97,15 +85,15 @@ reference your physical printed design with .dxf file for increased accuracy.
 
 ![Cutting acrylic](/images/lasercam.jpg)
 
-Using the same gaugeFace.dxf file, cut out the acrylic to create the backing for
-the gauge face.
+Using the same DXF file, cut out the acrylic to create the backing for the gauge
+face.
 
 ![Custom gauge face printout](/images/custom-face.JPG)
 
 Using the multipurpose adhesive, attach the gauge face design the to acrylic and
 voilà, you have your very own Retro Gauge face!
 
-<h2 id="step6">6: Assembly</h2>
+<h2 id="step6">6 - Assembly</h2>
 
 Finally, time to put all of the pieces together!
 
@@ -120,3 +108,19 @@ Then place the gauge face on top of the PCB
 ![Complete retro gauge](/images/completed-gauge.JPG)
 
 Your very first OpenXC Retro Gauge!
+
+**Resources**
+
+* [OpenXC Retro Gauge Project](https://github.com/openxc/retro-gauge)
+* PCB Fabrications Shops
+    * [Seeed Studios](http://www.seeedstudio.com/depot/)
+    * [Batch PCB](ttps://www.batchpcb.com/)
+    * [Sunstone PCB](http://www.sunstone.com/)
+* Electronic Components
+    * [Sparkfun](http://www.sparkfun.com/)
+    * [Digikey](http://www.digikey.com/)
+    * [Adafruit](http://adafruit.com/)
+* 3D Printing Fabrication Shops
+    * [Fathom Studios](http://studiofathom.com/)
+    * [Shapeways](http://www.shapeways.com/)
+

@@ -5,34 +5,28 @@ title: OpenXC Retro Gauge Lab
 
 ![Components](/images/retro-gauge.jpg)
 
-In this lab, we will briefly discuss what open source hardware is and how it
-can be applied to OpenXC and vehicle modifications. It would be impossible to
-cover all of the necessary information to design and implement every idea each
-of you might have. So instead, the goal of this lab is to introduce you to open
-source hardware design and to provide a foundation so that you can create your
-own idea.
+In this lab, we will briefly discuss what open source hardware is and how it can
+be applied to the [OpenXC platform](http://openxcplatform.com) and vehicle
+modifications. It would be impossible to cover all of the necessary information
+to design and implement every idea each of you might have. Instead, the goal of
+this lab is to introduce you to open source hardware design and to provide a
+foundation so that you can create your own idea.
 
 In this lab we will cover the following main topics:
 
-* Open Source Hardware Design
-* OpenXC Retro Gauge - General Information
-* Retro Gauge Components
+* [Open Source Hardware Design](/design/oshw.html)
+* The [OpenXC Retro Gauge](http://openxcplatform.com/projects/retro-gauge.html)
+* [Retro Gauge Components](/design/components.html)
     * Arduino, an electronic prototyping platform
     * Two digit 7-segment display
     * Stepper motors
     * Using Hue values with RGB LEDs
-* How to build and assemble a Retro Gauge
+* How to [build and assemble](/assembly.html) a Retro Gauge
 
 At the end of this lab you will have working knowledge of what open source
 hardware is and a basic toolbox to use in the future to implement additional
-hardware design.  You will learn about each of the components of the Retro
+hardware design. You will learn about each of the components of the Retro
 Gauge, how they are an example of open source hardware design, and the
 necessary steps to build your own gauge.
-
-Materials needed:
-
-* Laptop
-* Soldering Station
-* Paper for notes
 
 Time Required: 3 Hours

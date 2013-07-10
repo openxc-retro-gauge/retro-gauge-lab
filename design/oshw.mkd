@@ -5,10 +5,11 @@ title: Open Source Hardware
 
 **Definition**
 
-Open Source Hardware (OSHW) is a thing - a physical artifact, either electrical
-or mechanical - whose design information is available to, and usable by, the
-public in a way that allows anyone to make, modify, distribute, and use that
-thing. (credit to the [TAPR license][TAPR] authors).
+Open Source Hardware ([OSHW](http://www.oshwa.org/)) is a thing - a physical
+artifact, either electrical or mechanical - whose design information is
+available to, and usable by, the public in a way that allows anyone to make,
+modify, distribute, and use that thing (credit to the [TAPR license][TAPR]
+authors for this definition).
 
 In other words, open source hardware is something you can touch, feel, and/or
 interact with that is open for public use. Under the requirements of specific
@@ -18,11 +19,13 @@ create a product based on prior projects done by other individuals or
 companies, thus enhancing and improving new products based on previous designs.
 
 In order to release files as open source hardware, you must choose between a
-number of different licenses, based on your requirements and needs. One of the
-most popular OSHW licenses, and the license OpenXC uses, is called the TAPR
-license.
-
-TODO revise for using creative commons now
+number of different licenses, based on your requirements and needs. Unlike open
+source software, these licenses have yet to mature and there is not an obvious
+consensus on the best choices. There is a good discussion on Wikipedia about the
+[fundamental
+differences](http://en.wikipedia.org/wiki/Open-source_hardware#Licenses) between
+open source software and hardware licenses. OpenXC projects tend to use Creative
+Commons copyright, although this isn't strictly an open source license.
 
 **Designing for Open Source**
 
@@ -41,9 +44,9 @@ consists of 3 main components:
 * [TAPR License][TAPR]
 * [Creative Commons](http://creativecommons.org/)
 * OSHW Projects
-    * Arduino - http://www.arduino.cc/
-    * Raspberry Pi - http://en.wikipedia.org/wiki/Raspberry_Pi
-    * 3D Printer Rep Rap - http://reprap.org/wiki/Main_Page
-    * Key Glove - http://www.keyglove.net/
+    * [Arduino](http://www.arduino.cc/)
+    * [Raspberry Pi](http://en.wikipedia.org/wiki/Raspberry_Pi)
+    * [Rep Rap 3D Printer](http://reprap.org/wiki/Main_Page)
+    * [Key Glove](http://www.keyglove.net/)
 
 [TAPR]: http://www.tapr.org/ohl.html

@@ -27,20 +27,23 @@ open-source IDE can be downloaded for free.
 
 ![Arduino Pro Mini](/images/arduino-pro.png)
 
+*Arduino Pro Mini, image licensed under the Creative Commons
+Attribution-Share Alike 3.0 Unported license from SparkFun*
+
 ![Arduino Uno](/images/arduino.png)
 
-Left: Arduino Pro Mini, Right: Arduino Uno
-Source: Sparkfun.com
+*Arduino Uno, image licensed under the Creative Commons
+Attribution-Share Alike 3.0 Unported license from SparkFun*
 
-TODO make a grid
 
-The most obvious difference between the two boards is the size. An Arduino Pro
-Mini is 1.3”X0.7,” while the Uno is 2.7”X2.1”. The smaller size allows the Mini
-to work better with projects that have small size constraints. The major
-hardware difference between the Uno and the Mini is that the Mini is missing
-the Atmega8U2-based USB-to-Serial converter. This means that the Arduino Pro
-Mini requires an off board FTDI USB serial IC to flash the code to the
-processor.
+
+The most obvious difference between the two boards is the size. An [Arduino Pro
+Mini](http://arduino.cc/en/Main/ArduinoBoardProMini) is 1.3" x 0.7", while the
+Uno is 2.7" x 2.1". The smaller size allows the Mini to work better with
+projects that have small size constraints. The major hardware difference between
+the Uno and the Mini is that the Mini is missing the Atmega8U2-based
+USB-to-Serial converter. This means that the Arduino Pro Mini requires an off
+board FTDI USB serial IC to flash the code to the processor.
 
 There are a wealth of libraries and projects that use the Arduino platform. The
 Retro Gauge uses the Arduino Pro Mini because of its size and accessibility.
@@ -48,29 +51,26 @@ Rather than designing the board with a microcontroller that requires a specific
 bootloader and IDE, the Retro Gauge was designed around the Arduino Pro Mini
 because of its popularity in the hobbyist community.
 
-Visit the [Arduino Pro Mini
-page](http://arduino.cc/en/Main/ArduinoBoardProMini) for more information.
-
 **Two Digit 7-Segment Displays**
 
 A two digit 7-segment display is a common digital display used in gauges and
 aftermarket products. It allows a user to easily know the value of their output
 at a single glance.
 
-One of the challenges of using the Arduino Pro Mini is the number of
-addressable digital outputs available. An Arduino Pro Mini only has 14 digital
-outputs available, and the two digit 7-segment displays and other components of
-the gauge require more than 14 outputs. By using a 74HC595 shift register, you
-can add 8 digital outputs to your projects. In the case of the Retro Gauge, two
-74HC595 shift registers are use to add an additional 16 outputs to the Arduino
-Pro Mini to control the two digit 7-segment display. For more information on
-the 74HC595, let’s walk through the Bildr tutorial.
+One of the challenges of using the Arduino Pro Mini is the number of addressable
+digital outputs available. An Arduino Pro Mini only has 14 digital outputs
+available, and the two digit 7-segment displays and other components of the
+gauge require more than 14 outputs. By using a [74HC595 shift
+register](https://www.sparkfun.com/products/733), you can add 8 digital outputs
+to your projects. In the case of the Retro Gauge, two 74HC595 shift registers
+are use to add an additional 16 outputs to the Arduino Pro Mini to control the
+two digit 7-segment display. For more details on the 74HC595, check out the
+[Bildr tutorial](https://www.sparkfun.com/products/733).
 
 *Resources*
 
-* Multiplexing Instructable - http://www.instructables.com/id/Multiplexing-with-Arduino-and-the-74HC595/
-* Arduino Shift Out example - http://arduino.cc/en/Tutorial/ShiftOut
-* bildr.org example - http://bildr.org/2011/02/74hc595/
+* [Multiplexing Instructable](http://www.instructables.com/id/Multiplexing-with-Arduino-and-the-74HC595/)
+* [Arduino Shift Out example](http://arduino.cc/en/Tutorial/ShiftOut)
 
 **Stepper Motor**
 
@@ -80,15 +80,14 @@ apply a phase-shifted pulse to the two coils. A unipolar motor generally has 6
 leads, 2 pairs of three wires powering one coil with a center tap.
 
 The Retro Gauge uses a bipolar motor and is controlled by the Arduino using an
-open source library from the Gaugette project. Guy Carpenter, the designer who
-made the Gaugette project, originally set out to make an analog gauge that could
-show system health indication or maybe network bandwidth or web traffic. The
-project has been forked several times to make different gauges that display
-different kinds of data and Guy was even excited enough to repost the Retro
-Gauge on his blog!
+open source library from the [Gaugette
+project](http://guy.carpenter.id.au/gaugette/), by Guy Carpenter. Guy originally
+set out to make an analog gauge that could show system health indication or
+maybe network bandwidth or web traffic. The project has been forked several
+times to make different gauges that display different kinds of data, and now
+vehicle data.
 
 *Resources*
 
 * A good source for [basic information on stepper motors](http://www.solarbotics.net/library/pieces/parts_mech_steppers.html)
 * [Bildr’s tutorial on Stepper Motors](http://bildr.org/2011/06/easydriver/)
-* [Gaugette Project](http://guy.carpenter.id.au/gaugette/)

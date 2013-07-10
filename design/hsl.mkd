@@ -1,6 +1,6 @@
 ---
 layout: design
-title: HSL and HSV for Color
+title: Hue, Saturation and Lightness
 ---
 
 ![HSL and HSV](/images/hsl-hsv.png)
@@ -11,13 +11,13 @@ Unported license from [Wikipedia](http://en.wikipedia.org/wiki/HSL_and_HSV)*
 The RGB LEDs are used for both aesthetics and status indication. When dealing
 with RGB LEDs it is also nice to be able to adjust the color of the LED without
 having to use 3 different pins and potentiometers to determine the pulse-width
-module (PWM) value for each color (Red, Green, Blue). For this reason, the
-Retro Gauge uses HSL - Hue, Saturation, Lightness - to digitally control the
-RGB LEDs over 3 analog pins.
+module (PWM) value for each color (Red, Green, Blue). For this reason, the Retro
+Gauge uses [Hue, Saturation, and
+Lightness](http://en.wikipedia.org/wiki/HSL_and_HSV) (HSL) - to digitally
+control the RGB LEDs over 3 analog pins.
 
 HSL is used to pick a particular color with only one input. By setting the
 saturation and lightness value constant, a user (or sensor) can determine the
 Hue value to set the color of the LED.
 
-* Wikipedia article on HSL and HSV (Hue, Saturation, Lightness) - http://en.wikipedia.org/wiki/HSL_and_HSV
-* HSL Color Schemer - http://www.workwithcolor.com/hsl-color-schemer-01.htm
+* [HSL Color Schemer](http://www.workwithcolor.com/hsl-color-schemer-01.htm)
