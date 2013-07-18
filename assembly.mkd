@@ -22,16 +22,54 @@ in the
 Once you have your PCB and all of your materials, follow this [Instructable on
 soldering all of the components the PCB][instructable].
 
+When you're done soldering, it's a good idea to check all of the connections
+with a multimeter.
+
+* Check that the resistance across each of the resistors is correct (either 100
+  or 220 ohms). Make sure you're not just touching the edges of the resistor
+  itself - put one multimeter probe in a via or at the other end of the trace,
+  and the other probe touching the opposite end of the resistor.
+* Check that the shift register feet are all actually securely soldered to the
+  pads. Put one multimeter probe on the very top of the leg (careful not to
+  touch the solder or pad), and the other probe at the end of the trace (at a
+  via or resistor).
+
 [instructable]: http://www.instructables.com/id/How-to-Solder-Your-OpenXC-Retro-Gauge/
 
 <h2 id="step3">3 - Flashing code on your PCB</h2>
 
 Now that your circuit board is assembled, it is time to flash [the
 firmware](https://github.com/openxc/retro-gauge/tree/master/firmware) onto
-the Arduino. This requires an FTDI cable - follow [this tutorial on
+the Arduino. This requires an FTDI cable or adapter - follow [this tutorial on
 flashing](http://www.arduino.cc/en/Guide/ArduinoProMini) to get started.
 
-<h2 id="step4">4 - Printing the Gauge Housing</h2>
+Once you have the right cables attached, see the docs on [compiling and
+flashing](https://github.com/openxc/retro-gauge/tree/master/firmware#compiling-with-arduino-ide)
+the Retro Gauge firmware.
+
+<h2 id="step4">4 - Testing the Gauge</h2>
+
+After flashing the firmware, the gauge runs a self-test procedure that will show
+all possible digits on the display, show all colors on the LEDs and spin the
+motor a bit. This self-test happens every time it powers on and just takes a
+couple of seconds.
+
+If you've checked all of your electrical connections, but the self-test still
+isn't perfect, here are some things to check:
+
+* Are the LEDs the wrong color or is one not lighting up? Check for a bad
+  connection on one or two of the pads, which could case one of the colors to be
+  not working.
+* Is an LED not lighting at all? Check that it's centered so the pads line up -
+  it has to be fairly precise.
+* Are one or both of the digits stuck, no matter what you try and display? Check
+  the shift registers.
+* Are one or both of the digits on the display incomplete, but you still see it
+  trying to change? Check the 200 ohm resistors and their connection to the
+  shift registers. Also try pulling the display up a tiny bit - the connection
+  is a little flaky.
+
+<h2 id="step5">5 - Printing the Gauge Housing</h2>
 
 Making your housing is as simple as [downloading the .stl files from
 GitHub](https://github.com/openxc/retro-gauge/tree/master/enclosure) and
@@ -39,7 +77,7 @@ printing at your local TechShop or hackerspace. If you do not have access to
 either one of these facilities, you can print the housing using a 3D fabrication
 house listed above.
 
-<h2 id="step5">5 - Build a Gauge Face</h2>
+<h2 id="step6">6 - Build a Gauge Face</h2>
 
 *Equipment and Material Needed*
 
@@ -94,7 +132,7 @@ face.
 Using the multipurpose adhesive, attach the gauge face design the to acrylic and
 voilà, you have your very own Retro Gauge face!
 
-<h2 id="step6">6 - Assembly</h2>
+<h2 id="step7">7 - Final Assembly</h2>
 
 Finally, time to put all of the pieces together!
 

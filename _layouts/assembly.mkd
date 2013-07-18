@@ -11,9 +11,10 @@ layout: default
         <li><a href="#step1">1 - The Circuit Board</a></li>
         <li><a href="#step2">2 - Soldering the PCB</a></li>
         <li><a href="#step3">3 - Programming</a></li>
-        <li><a href="#step4">4 - Gauge Housing</a></li>
-        <li><a href="#step5">5 - Gauge Face</a></li>
-        <li><a href="#step6">6 - Final Assembly</a></li>
+        <li><a href="#step3">4 - Testing</a></li>
+        <li><a href="#step4">5 - Gauge Housing</a></li>
+        <li><a href="#step5">6 - Gauge Face</a></li>
+        <li><a href="#step6">7 - Final Assembly</a></li>
       </ul>
     </div>
   </div>
