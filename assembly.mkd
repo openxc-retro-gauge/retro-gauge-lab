@@ -26,7 +26,8 @@ soldering all of the components the PCB][instructable].
 
 <h2 id="step3">3 - Flashing code on your PCB</h2>
 
-Now that your circuit board is assembled, it is time to flash the firmware onto
+Now that your circuit board is assembled, it is time to flash [the
+firmware](https://github.com/openxc/retro-gauge/tree/master/firmware) onto
 the Arduino. This requires an FTDI cable - follow [this tutorial on
 flashing](http://www.arduino.cc/en/Guide/ArduinoProMini) to get started.
 
