@@ -10,7 +10,7 @@ be applied to the [OpenXC platform](http://openxcplatform.com) and vehicle
 modifications. It would be impossible to cover all of the necessary information
 to design and implement every idea each of you might have. Instead, the goal of
 this lab is to introduce you to open source hardware design and to provide a
-foundation so that you can create your own idea.
+foundation so that you can create your own idea. If this is your first OpenXC project, please refer to the [OpenXC setup page](http://openxcplatform.com/getting-started/index.html).
 
 In this lab we will cover the following main topics:
 

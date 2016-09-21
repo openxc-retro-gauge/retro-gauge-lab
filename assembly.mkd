@@ -1,6 +1,6 @@
 ---
 layout: assembly
-title: Assembly
+title: Assembly - Retro Gauge
 ---
 
 <h2 id="step1">1 - The Circuit Board</h2>
@@ -8,14 +8,14 @@ title: Assembly
 For the purposes of this lab, OpenXC has provided the circuit board and
 components to make your own Retro Gauge. If you wish to modify your gauge or a
 friend wants to build their own, visit the [GitHub
-repository](https://github.com/openxc/retro-gauge/tree/master/schematics) to download the PCB
+repository](https://github.com/openxc-retro-gauge/retro-gauge-hardware) to download the PCB
 schematics and use your favorite low-volume fab house to manufacture the gauge
 (see the resources at the bottom of the page for some suggestions).
 
 The complete list of components required to build a Retro Gauge can also be
-found on [GitHub](https://github.com/openxc/retro-gauge/tree/master/schematics)
+found on [GitHub](https://github.com/openxc-retro-gauge/retro-gauge-hardware)
 in the
-[BOM](https://github.com/openxc/retro-gauge/raw/master/schematics/Gauge-BOM.xls).
+[BOM](https://github.com/openxc-retro-gauge/retro-gauge-hardware/blob/master/Gauge-BOM.xls).
 
 <h2 id="step2">2 - Soldering Your PCB</h2>
 
@@ -39,12 +39,12 @@ with a multimeter.
 <h2 id="step3">3 - Flashing code on your PCB</h2>
 
 Now that your circuit board is assembled, it is time to flash [the
-firmware](https://github.com/openxc/retro-gauge/tree/master/firmware) onto
+firmware](https://github.com/openxc-retro-gauge/retro-gauge-firmware) onto
 the Arduino. This requires an FTDI cable or adapter - follow [this tutorial on
 flashing](http://www.arduino.cc/en/Guide/ArduinoProMini) to get started.
 
 Once you have the right cables attached, see the docs on [compiling and
-flashing](https://github.com/openxc/retro-gauge/tree/master/firmware#compiling-with-arduino-ide)
+flashing](https://github.com/openxc-retro-gauge/retro-gauge-firmware)
 the Retro Gauge firmware.
 
 <h2 id="step4">4 - Testing the Gauge</h2>
@@ -72,7 +72,7 @@ isn't perfect, here are some things to check:
 <h2 id="step5">5 - Printing the Gauge Housing</h2>
 
 Making your housing is as simple as [downloading the .stl files from
-GitHub](https://github.com/openxc/retro-gauge/tree/master/enclosure) and
+GitHub](https://github.com/openxc-retro-gauge/retro-gauge-enclosure) and
 printing at your local TechShop or hackerspace. If you do not have access to
 either one of these facilities, you can print the housing using a 3D fabrication
 house listed above.
@@ -100,7 +100,7 @@ not necessary, and the pattern could simply be cut by hand using a hobby knife.
 
 Using a photo editor like Photoshop or CorelDraw, design your gauge face. Make
 sure to download the [GaugeFace.dxf from
-GitHub](https://github.com/openxc/retro-gauge/tree/master/enclosure) for the
+GitHub](https://github.com/openxc-retro-gauge/retro-gauge-enclosure) for the
 parameters of your design.
 
 ![Applying a custom face](/images/applying-gauge-face.JPG)
@@ -153,7 +153,6 @@ Your very first OpenXC Retro Gauge!
 * [OpenXC Retro Gauge Project](https://github.com/openxc/retro-gauge)
 * PCB Fabrications Shops
     * [Seeed Studios](http://www.seeedstudio.com/depot/)
-    * [Batch PCB](ttps://www.batchpcb.com/)
     * [Sunstone PCB](http://www.sunstone.com/)
 * Electronic Components
     * [Sparkfun](http://www.sparkfun.com/)
