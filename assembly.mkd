@@ -79,6 +79,20 @@ house listed above.
 
 <h2 id="step6">6 - Build a Gauge Face</h2>
 
+<h4>Simple Version</h4>
+
+
+*Equipment and Material Needed*
+
+* Color Printer
+* Printer Paper or Weighted Paper (20lbs works well)
+
+Download and print out the [Gauge Face PDF file](https://github.com/openxc-retro-gauge/retro-gauge-enclosure/blob/master/gaugeFace.pdf). Cut along the outline of the gauge and cut out the shaded area. If you want to make any modifications to the gauge face, you can download the [gaugeFace.ai file](https://github.com/openxc-retro-gauge/retro-gauge-enclosure/blob/master/gaugeFace.ai) and use it as a template. 
+
+
+<h4>Advanced Version</h4>
+
+
 *Equipment and Material Needed*
 
 * Lasercam
