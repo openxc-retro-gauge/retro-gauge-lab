@@ -1,6 +1,6 @@
 ---
 layout: design
-title: Retro Gauge Design Goals
+title: Design Goals - Retro Gauge
 ---
 
 ![Retro Gauge](/images/retro-gauge.jpg)
@@ -16,7 +16,7 @@ that it would fit in existing gauge mounts.
 
 With the OpenXC Retro Gauge, you can display a variety of signals that are
 available to you using the [OpenXC Android
-Library](http://openxcplatform.com/android/index.html). Whether you want to
+Library](https://github.com/openxc/openxc-android). Whether you want to
 display vehicle speed, engine torque, steering wheel angle, or your MPG, it is
 all available by changing the settings in an Android app.
 
