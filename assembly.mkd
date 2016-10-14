@@ -128,7 +128,7 @@ about alignment, the lasercam will cut out the gauge face.
 ![Pre-cutting acrylic](/images/lasercam1.jpg)
 
 Align the paper on the lasercam and using
-[gaugeFace.dxf](https://github.com/openxc/retro-gauge/tree/master/enclosure),
+[gaugeFace.dxf](https://github.com/openxc-retro-gauge/retro-gauge-enclosure),
 cut out the gauge face. You can add elements to the .dxf file if you wish to cut
 out numbers or 'tick' marks to allow light to shine through.
 
